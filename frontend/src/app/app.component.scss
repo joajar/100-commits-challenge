@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(../assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation {
+    margin-top: 90px;
+    height: 140px;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #0170B9;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .listItem {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .logoLink {
+    display: inline-block;
+  }
