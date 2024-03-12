@@ -1,0 +1,13 @@
+.homeContainerOutside {
+    display: flex;
+    justify-content: center;
+}
+.homeContainer {
+    display: flex;
+    background-color: grey;
+    margin-top: 5px;
+    height: 500px;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+}

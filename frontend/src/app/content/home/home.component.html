@@ -1,15 +1,19 @@
-<form class="container" (ngSubmit)="send()">
-    <div class="row">
-        <input type="text" placeholder="Wpisz swoje imię" id="name" [(ngModel)]="message.name" name="name">
-        <label for="name">Imię i Nazwisko / Nick</label>
-    </div>
-    <div class="row">
-        <input type="text" placeholder="Wpisz swój adres Email" id="email" [(ngModel)]="message.email" name="email">
-        <label for="email">Adres Email</label>
-    </div>
-    <div class="row">
-        <input type="text" placeholder="Napisz wiadomość do Nas" id="content" [(ngModel)]="message.content" name="content">
-        <label for="content">wiadomość</label>
-    </div>
-  <button type="submit">Wyślij wiadomość</button>
-</form>
+<div class="homeContainerOutside">
+  <div class="homeContainer">
+    <form class="form" (ngSubmit)="send()">
+      <div class="row">
+          <input type="text" placeholder="Wpisz swoje imię" id="name" [(ngModel)]="message.name" name="name">
+          <label for="name">Imię i Nazwisko / Nick</label>
+      </div>
+      <div class="row">
+          <input type="text" placeholder="Wpisz swój adres Email" id="email" [(ngModel)]="message.email" name="email">
+          <label for="email">Adres Email</label>
+      </div>
+      <div class="row">
+          <input type="text" placeholder="Napisz wiadomość do Nas" id="content" [(ngModel)]="message.content" name="content">
+          <label for="content">wiadomość</label>
+      </div>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+  </div>
+</div>
