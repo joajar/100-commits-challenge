@@ -13,9 +13,6 @@ build/
 *.iws
 *.iml
 *.ipr
-backend/.idea
-frontned/.idea
-**/.idea/
 
 ### VS Code ###
 .vscode/
@@ -48,5 +45,5 @@ frontend/testem.log
 frontend/typings
 
 # System files
-frontend/.DS_Store
-frontend/Thumbs.db
+.DS_Store
+Thumbs.db
