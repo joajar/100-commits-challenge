@@ -1,0 +1,30 @@
+.homeContainerOutside {
+  display: flex;
+  justify-content: center;
+}
+.homeContainer {
+  background-color: white;
+  margin-top: 5px;
+  height: 500px;
+  width: 1140px;
+  align-items: center;
+}
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.leftContainerForAboutJpg {
+  border: 1px dashed black;
+  background-image: url(../../../assets/images/about.jpg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 460px;
+  height: 620px;
+}
+.rightContainer {
+  border: 1px dashed black;
+  width: 680px;
+  height: 620px;
+}
