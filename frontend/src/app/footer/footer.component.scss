@@ -2,10 +2,25 @@ footer {
   background-color: #0170B9;
   color: #FFFFFF;
 }
-.navList {  
-  padding: 43px 0 33px 0;
+.contactInfoContainer {
+  height: 50px;
+  width: 600px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.listItem {
+.contactInfoContainer ul {
+  display: flex;
+  list-style: none;
+}
+.contactInfoContainer ul li {
+  padding: 0 16px;
+}
+.footerCopyrightContainer {
+  list-style: none;
+  padding-bottom: 35px;
+}
+.footerCopyrightContainer li {
   text-align: center;
-  padding: 7px 0 7px 0;
+  padding: 7px 0;
 }
