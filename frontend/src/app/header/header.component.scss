@@ -1,36 +1,40 @@
 .header {
-    display: flex;
-    background-image: url(../../assets/images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 180px;
-    justify-content: center;
+  display: flex;
+  background-image: url(../../assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 180px;
+  justify-content: center;
 }
 .navigation {
-    display: flex;
-    background-color: #0170B9;
-    margin-top: 85px;
-    height: 140px;
-    width: 50%;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  background-color: #0170B9;
+  margin-top: 85px;
+  height: 140px;
+  width: 1140px;
+  justify-content: space-around;
+  align-items: center;
 }
 .navigation a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 .navigation a:hover {
-  color: aqua;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-underline-offset: 45px;
+  text-decoration-thickness: 3px;
+  justify-content: space-around;
 }
 .name {
   font-family: "Paprika", Sans-serif;
-  font-size: 20px;
-  color: #FFFFFF;
+  font-size: 22px;
+  color: #ffffff;
 }
 .listItem {
-    display: inline-block;
-    padding: 0 18px;
+  display: inline-block;
+  padding: 0 18px;
 }
 .spaceUnderBackgroundImage {
-    height: 50px;
+  height: 50px;
 }
