@@ -16,6 +16,10 @@ footer {
 .contactInfoContainer ul li {
   padding: 0 16px;
 }
+.contactInfoContainer ul li mat-icon {
+  position: relative;
+  top: 6px;
+}
 .footerCopyrightContainer {
   list-style: none;
   padding-bottom: 35px;
