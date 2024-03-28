@@ -1,0 +1,39 @@
+.homeContainerOutside {
+  display: flex;
+  justify-content: center;
+}
+.homeContainer {
+  margin-top: 5px;
+  padding: 10px 10px 0px 10px;
+  background-color: white;
+  height: 1040px;
+  width: 940px;
+}
+.info {
+  align-items: center;
+  font-family: "Montserrat-Bold", Sans-serif;
+  font-size: 16px;
+  line-height: 7px;
+  word-spacing: 2.5px;
+}
+.info h3 {
+  padding: 8px 0 0 0;
+  text-align: center;
+}
+.contactInfoContainer {
+  height: 50px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactInfoContainer ul {
+  display: flex;
+  list-style: none;
+}
+.contactInfoContainer ul li {
+  padding: 0 16px;
+}
+.contactInfoContainer ul li mat-icon {
+  position: relative;
+  top: 6px;
+}
