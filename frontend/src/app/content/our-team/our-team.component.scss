@@ -1,0 +1,25 @@
+.homeContainerOutside {
+  display: flex;
+  justify-content: center;
+}
+.homeContainer {
+  margin-top: 5px;
+  padding-top: 5px;
+  background-color: white;
+  height: 1040px;
+  width: 1140px;
+}
+.insideContainer {
+  padding: 0 5px 0 10px;
+  font-size: 16px;
+}
+.insideContainer ul {
+  padding-top: 5px;
+  line-height: 30px;
+  word-spacing: 1.5px;
+}
+.homeContainer h4 {
+  color: red;
+  font-family: "Montserrat-Bold", Sans-serif;  
+  text-align: center;
+}
