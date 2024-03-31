@@ -6,7 +6,7 @@
   margin-top: 5px;
   padding: 10px 10px 0px 10px;
   background-color: white;
-  height: 1040px;
+  height: 920px;
   width: 940px;
 }
 .info {
@@ -36,4 +36,11 @@
 .contactInfoContainer ul li mat-icon {
   position: relative;
   top: 6px;
+}
+.lowerContainerForWillowPng {
+  background-image: url(../../../assets/images/willow.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
 }
