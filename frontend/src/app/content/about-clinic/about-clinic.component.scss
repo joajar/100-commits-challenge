@@ -5,7 +5,7 @@
 .homeContainer {
   background-color: white;
   margin-top: 5px;
-  height: 500px;
+  height: 650px;
   width: 1140px;
   align-items: center;
 }
@@ -33,4 +33,8 @@
 .rightContainer p {
   margin-bottom: 1.6em;
   line-height: 28px;
+}
+.rightContainer p a {
+  color: #1877F2;
+  text-decoration: none;
 }
