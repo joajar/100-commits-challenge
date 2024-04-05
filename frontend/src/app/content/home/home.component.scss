@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
 }
+.homeContainer h1 {
+  line-height: 2px;
+}
 .outerContainer {
   display: flex;
   justify-content: center;
@@ -14,13 +17,13 @@
 }
 .leftContact { 
   background-color: #d6d6d6;
-  width: 460px; 
+  width: 435px; 
 }
 .rightMessage { 
   background-color: white;
-  width: 680px; 
+  width: 705px; 
 }
-.rightMessage form, .leftContact {
+.rightMessage, .leftContact {
   border: 1px solid gray;
   height: 398px;
 }
@@ -31,4 +34,7 @@
 .rightMessage .form .row label {
   display: block;
   font-weight: 700;
+}
+.leftContactInside, .rightContactInside {
+  margin: 40px 30px 30px 50px;
 }
