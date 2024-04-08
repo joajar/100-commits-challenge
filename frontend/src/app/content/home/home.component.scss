@@ -38,6 +38,18 @@
 .leftContactInside, .rightContactInside {
   margin: 40px 30px 30px 50px;
 }
+.leftContactInside h1 {
+  padding-bottom: 5px;
+}
 .leftContactInside ul {
+  padding-top: 15px;
   list-style: none;
+  margin-left: -40px;
+}
+.leftContactInside ul li {
+  line-height: 39px;
+}
+.leftContactInside ul li mat-icon {
+  position: relative;
+  top: 6px;
 }
