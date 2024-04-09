@@ -7,6 +7,14 @@
 .homeContainer h1 {
   line-height: 2px;
 }
+.homeContainer h2 {
+  font-family: "Montserrat-Bold", Sans-serif;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.homeContainer hr {
+  margin: 30px 0 20px 0;
+}
 .outerContainer {
   display: flex;
   justify-content: center;
