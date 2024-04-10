@@ -36,9 +36,9 @@
     </div>
     <div class="rightMessage">
       <div class="rightContactInside">
+        <h1>Wiadomość</h1>
+        <hr style="width:14%;margin-left:0;color:black;background-color:black;height:2px;border-width:0;">
         <form class="form" (ngSubmit)="send()">
-          <h1>Wiadomość</h1>
-          <hr style="width:14%;margin-left:0;color:black;background-color:black;height:2px;border-width:0;">
           <div class="row">
               <label for="name">Imię i Nazwisko / Nick</label>
               <input type="text" placeholder="Wpisz swoje imię i Nazwisko / Nick" id="name" [(ngModel)]="message.name" name="name">
