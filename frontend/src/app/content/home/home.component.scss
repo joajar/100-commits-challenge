@@ -40,12 +40,15 @@
   line-height: 30px;
 }
 input[type=text], input[type=textarea] {
-  width: 100%;
+  width: 95%;
   padding: 15px 13px;
   margin: 1px 0 20px 0;
   border: 1px solid #ccc;
   box-sizing: border-box;
   background-color: #d6d6d6;
+}
+input[type=textarea] {
+  height: 100px;
 }
 .leftContactInside, .rightContactInside {
   margin: 40px 30px 30px 50px;
