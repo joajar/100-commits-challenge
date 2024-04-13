@@ -16,7 +16,7 @@
   flex-direction: row;
 }
 .leftContact, .rightMessage {
-  height: 500px;
+  height: 600px;
 }
 .leftContact { 
   background-color: #d6d6d6;
@@ -28,16 +28,18 @@
 }
 .rightMessage, .leftContact {
   border: 1px solid gray;
-  height: 498px;
+  height: 598px;
 }
 .rightMessage .row label {
   display: block;
   font-weight: 700;
 }
 .rightMessage form {
-  font-size: 16px;
-  font-family: "Montserrat-Bold", Sans-serif;
+  font-size: 15px;
   line-height: 30px;
+}
+.rightMessage form .row label {
+  font-family: "Montserrat-Bold", Sans-serif;
 }
 input[type=text], input[type=textarea] {
   width: 95%;
