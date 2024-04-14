@@ -40,20 +40,23 @@
         <hr style="width:14%;margin-left:0;color:black;background-color:black;height:2px;border-width:0;">
         <form class="form" (ngSubmit)="send()">
           <div class="row">
-            <label for="name">Imię i Nazwisko / Nick</label>
+            <label for="name">Imię i Nazwisko / Nick<span class="dot">*</span>
+            </label>
             <input type="text" placeholder="Wpisz swoje imię i Nazwisko / Nick" id="name" [(ngModel)]="message.name" name="name">
           </div>
           <div class="row">
-            <label for="email">Adres Email</label>
+            <label for="email">Adres Email<span class="dot">*</span>
+            </label>
             <input type="text" placeholder="Wpisz swój adres Email" id="email" [(ngModel)]="message.email" name="email">
           </div>
           <div class="row">
-            <label for="content">Wiadomość</label>
+            <label for="content">Wiadomość<span class="dot">*</span>
+            </label>
             <input type="textarea" placeholder="Napisz wiadomość do Nas" id="content" [(ngModel)]="message.content" name="content">
           </div>
           <div class="row">
             <label for="checkbox">Wymagane</label>
-            <input type="checkbox" id="checkbox" name="checkbox" value="processingPersonalDataConsent"> Wyrażam zgodę na przetwarzane danych*
+            <input type="checkbox" id="checkbox" name="checkbox" value="processingPersonalDataConsent"> Wyrażam zgodę na przetwarzane danych<span class="dot">*</span>
           </div>
           <button type="submit">Wyślij wiadomość</button>
         </form>
