@@ -73,3 +73,8 @@ input[type=textarea] {
   position: relative;
   top: 6px;
 }
+button[mat-flat-button] {
+  background-color: #0170B9;
+  color: #d6d6d6;
+  border-radius: 10% / 50%;
+}
