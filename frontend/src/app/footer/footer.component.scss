@@ -1,5 +1,7 @@
+@import '../../variables.scss';
+
 footer {
-  background-color: #0170B9;
+  background-color: $blue-color;
   color: #FFFFFF;
 }
 .contactInfoContainer {

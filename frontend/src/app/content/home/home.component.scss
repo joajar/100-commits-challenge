@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -74,7 +76,7 @@ input[type=textarea] {
   top: 6px;
 }
 button[mat-flat-button] {
-  background-color: #0170B9;
+  background-color: $blue-color;
   color: #d6d6d6;
   border-radius: 10% / 50%;
 }

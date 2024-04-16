@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .header {
   display: flex;
   background-image: url(../../assets/images/background.jpg);
@@ -8,7 +10,7 @@
 }
 .navigation {
   display: flex;
-  background-color: #0170B9;
+  background-color: $blue-color;
   margin-top: 85px;
   height: 140px;
   width: 1140px;
