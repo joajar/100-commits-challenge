@@ -21,11 +21,11 @@
   height: 600px;
 }
 .leftContact { 
-  background-color: #d6d6d6;
+  background-color: $yellow-gray;
   width: 435px; 
 }
 .rightMessage {
-  background-color: white;
+  background-color: $white-color;
   width: 705px; 
 }
 .rightMessage, .leftContact {
@@ -42,9 +42,10 @@
 }
 .rightMessage form .row label {
   font-family: "Montserrat-Bold", Sans-serif;
+  font-size: 15px;
 }
 .dot {
-  color: red;
+  color: $red-color;
 }
 input[type=text], input[type=textarea] {
   width: 95%;
@@ -52,7 +53,7 @@ input[type=text], input[type=textarea] {
   margin: 1px 0 20px 0;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  background-color: #d6d6d6;
+  background-color: $light-gray;
 }
 input[type=textarea] {
   height: 100px;
@@ -76,7 +77,9 @@ input[type=textarea] {
   top: 6px;
 }
 button[mat-flat-button] {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 13px;
   background-color: $blue-color;
-  color: #d6d6d6;
+  color: $white-color;
   border-radius: 10% / 50%;
 }
