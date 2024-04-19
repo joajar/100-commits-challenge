@@ -1,9 +1,11 @@
+@import '../../../variables.scss';
+
 .homeContainerOutside {
   display: flex;
   justify-content: center;
 }
 .homeContainer {
-  background-color: white;
+  background-color: $white-color;
   margin-top: 5px;
   height: 650px;
   width: 1140px;
@@ -35,6 +37,6 @@
   line-height: 28px;
 }
 .rightContainer p a {
-  color: #1877F2;
+  color: $blue-color;
   text-decoration: none;
 }
