@@ -1,9 +1,11 @@
+@import '../../../variables.scss';
+
 .homeContainerOutside {
   display: flex;
   justify-content: center;
 }
 .homeContainer {
-  background-color: white;
+  background-color: $white-color;
   margin-top: 5px;
   height: 1540px;
   width: 1140px;
@@ -43,7 +45,7 @@
   font-family: "Montserrat-Bold", Sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #1877F2;
+  color: $blue-color;
 }
 .rightContainerForLaptopJpg {
   background-image: url(../../../assets/images/laptop.jpg);
@@ -63,5 +65,5 @@
   font-family: "Montserrat-Bold", Sans-serif;
 }
 .lowerContainer .red {
-  color: red;
+  color: $red-color;
 }
