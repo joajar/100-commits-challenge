@@ -18,12 +18,12 @@
   align-items: center;
 }
 .navigation a {
-  color: #ffffff;
+  color: $white-color;
   text-decoration: none;
 }
 .navigation a:hover {
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: $white-color;
   text-underline-offset: 45px;
   text-decoration-thickness: 3px;
   justify-content: space-around;
@@ -31,7 +31,7 @@
 .name {
   font-family: "Paprika", Sans-serif;
   font-size: 22px;
-  color: #ffffff;
+  color: $white-color;
 }
 .listItem {
   display: inline-block;
