@@ -5,7 +5,6 @@ import { OfferComponent } from './content/offer/offer.component';
 import { ContactComponent } from './content/contact/contact.component';
 import { HomeComponent } from './content/home/home.component';
 import { AppointmentsComponent } from './content/appointments/appointments.component';
-import { RodoComponent } from './rodo/rodo.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -13,6 +12,5 @@ export const routes: Routes = [
     { path: 'zespol', component: OurTeamComponent },
     { path: 'oferta', component: OfferComponent },
     { path: 'terminy', component: AppointmentsComponent },
-    { path: 'kontakt', component: ContactComponent },
-    { path: 'rodo', component: RodoComponent }
+    { path: 'kontakt', component: ContactComponent }
 ];
