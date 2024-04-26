@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .homeContainerOutside {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
 .homeContainer {
   margin-top: 5px;
   padding: 10px 10px 0px 10px;
-  background-color: white;
+  background-color: $white-color;
   height: 800px;
   width: 940px;
 }
