@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .homeContainerOutside {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
 .homeContainer {
   margin-top: 5px;
   padding-top: 5px;
-  background-color: white;
+  background-color: $white-color;
   height: 1040px;
   width: 1140px;
 }
@@ -20,7 +22,7 @@
   word-spacing: 1.5px;
 }
 .homeContainer h4 {
-  color: red;
+  color: $red-color;
   font-family: "Montserrat-Bold", Sans-serif;  
   text-align: center;
 }
